@@ -1,29 +1,41 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
+import Hero2 from '../components/Hero2'; 
+import '/src/index.css';
+
+const pigskinPachongaProject = {
+  title: 'Pigskin Pachonga',
+  description: 'Fantasy Football Team Generator',
+  image: 'src/assets/pigskin-pachonga.PNG',
+  link: '', // Add a link if applicable
+};
+
 
 export default function Portfolio() {
   const projects = [
     {
       title: 'E-commerce Website',
       description: 'Dead Face Clothing',
-      image: 'https://via.placeholder.com/150', // Replace with your image URL
+      image: 'src/assets/deadxface-home.PNG', // Replace with your image URL
       link: '', // Add a link if applicable
     },
     {
       title: 'SLC Events',
-      description: 'Events',
+      description: 'Local Event Search',
       image: 'src/assets/SLC-img.PNG',
       link: 'https://keith-godfrey.github.io/SLC-Events/',
     },
-    {
-      title: 'Project 3',
-      description: 'Description for project 3',
-      image: 'https://via.placeholder.com/150', // Replace with your image URL
-      link: '', // Add a link if applicable
-    },
+    // {
+    //   title: 'Pigskin Pachonga',
+    //   description: 'Fantasy Football Team Generator',
+    //   image: 'src/assets/pigskin-pachonga.PNG', // Replace with your image URL
+    //   link: '', // Add a link if applicable
+    // },
   ];
 
   return (
+    <>
+    <Hero2 project={pigskinPachongaProject} />
     <CardGroup>
       {projects.map((project, index) => (
         <a 
@@ -43,5 +55,6 @@ export default function Portfolio() {
         </a>
       ))}
     </CardGroup>
+    </>
   );
 }

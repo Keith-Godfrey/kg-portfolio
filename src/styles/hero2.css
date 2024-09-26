@@ -1,0 +1,41 @@
+.hero2 {
+    width: 31vw; /* Set a fixed width */
+    /* height: 50vh; Set a fixed height */
+    margin: 16px; /* Space between cards */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px #0D1B2A; /* Subtle shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .hero2-body {
+    padding: 10%; /* Padding inside the card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Ensures content is spaced evenly */
+    height: 100%; /* Adjust height to fit within the card, considering the image height */
+  }
+  
+  .hero2:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px #0D1B2A; /* Enhanced shadow on hover */
+  }
+  
+  .hero2-img-top {
+    width: 100vw; /* Ensures the image takes the full width of the card */
+    /* height: 100%; Set a fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-top-left-radius: 10px; /* Rounded top corners */
+    border-top-right-radius: 10px; /* Rounded top corners */
+  }
+  
+  .hero2-title {
+    font-size: 1.5rem; /* Larger title font size */
+    font-weight: bold; /* Bold title */
+    color: #415a77; /* Custom color for title */
+  }
+  
+  .hero2-text {
+    color: #555; /* Darker text for description */
+    font-size: 1rem; /* Standard font size for description */
+  }

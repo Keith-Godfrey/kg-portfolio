@@ -85,14 +85,24 @@ button:focus-visible {
 }
 
 
-
+/* Portfolio Cards */
 
 .card {
-  margin: 15px; /* Space between cards */
+  width: 31vw; /* Set a fixed width */
+  /* height: 50vh; Set a fixed height */
+  margin: 16px; /* Space between cards */
   border: none; /* Remove default border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px #0D1B2A; /* Subtle shadow */
   transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+}
+
+.card-body {
+  padding: 10%; /* Padding inside the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; /* Ensures content is spaced evenly */
+  height: 100%; /* Adjust height to fit within the card, considering the image height */
 }
 
 .card:hover {
@@ -101,6 +111,9 @@ button:focus-visible {
 }
 
 .card-img-top {
+  width: 100vw; /* Ensures the image takes the full width of the card */
+  /* height: 100%; Set a fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
   border-top-left-radius: 10px; /* Rounded top corners */
   border-top-right-radius: 10px; /* Rounded top corners */
 }
@@ -116,9 +129,7 @@ button:focus-visible {
   font-size: 1rem; /* Standard font size for description */
 }
 
-.card-body {
-  padding: 20px; /* Padding inside the card */
-}
+
 
 
 /* start styles to <footer> */
@@ -129,7 +140,7 @@ footer {
   font-weight: bold;
   width: 100vw;
   height: 80px;
-  position: sticky;
+
   bottom: 0;
   display: flex;
   justify-content: center;
