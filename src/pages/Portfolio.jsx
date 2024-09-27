@@ -16,8 +16,8 @@ export default function Portfolio() {
     {
       title: 'E-commerce Website',
       description: 'Dead Face Clothing',
-      image: 'src/assets/deadxface-home.PNG', // Replace with your image URL
-      link: '', // Add a link if applicable
+      image: 'src/assets/deadxface-home.PNG', 
+      link: '', 
     },
     {
       title: 'SLC Events',
@@ -25,13 +25,7 @@ export default function Portfolio() {
       image: 'src/assets/SLC-img.PNG',
       link: 'https://keith-godfrey.github.io/SLC-Events/',
     },
-    // {
-    //   title: 'Pigskin Pachonga',
-    //   description: 'Fantasy Football Team Generator',
-    //   image: 'src/assets/pigskin-pachonga.PNG', // Replace with your image URL
-    //   link: '', // Add a link if applicable
-    // },
-  ];
+  ]
 
   return (
     <>

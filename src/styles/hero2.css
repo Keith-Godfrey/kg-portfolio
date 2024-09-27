@@ -1,5 +1,7 @@
+
+
 .hero2 {
-    width: 31vw; /* Set a fixed width */
+    width: 100vw; /* Set a fixed width */
     /* height: 50vh; Set a fixed height */
     margin: 16px; /* Space between cards */
     border: none; /* Remove default border */
