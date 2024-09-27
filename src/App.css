@@ -9,7 +9,7 @@
   /* border-bottom-width: 10px; */
   padding-left: 66px;
   height: 127px;
-  background: #1b263b;
+  background: #48719F;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -242,7 +242,7 @@
   flex-direction: row;
   justify-content: flex-end;
   background: #1b263b;
-  background-color: #1b263b;
+  background-color: #48719F;
   box-shadow:
     rgba(59, 57, 80, 0.2) 0 2px 2px,
     rgba(0, 0, 0, 0.2) 0 4px 4px,

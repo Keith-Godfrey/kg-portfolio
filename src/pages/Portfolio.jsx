@@ -3,12 +3,7 @@ import { Card, CardGroup } from 'react-bootstrap';
 import Hero2 from '../components/Hero2'; 
 import '/src/index.css';
 
-const pigskinPachongaProject = {
-  title: 'Pigskin Pachonga',
-  description: 'Fantasy Football Team Generator',
-  image: 'src/assets/pigskin-pachonga.PNG',
-  link: '', // Add a link if applicable
-};
+const pigskinPachongaProject = {};
 
 
 export default function Portfolio() {
@@ -17,7 +12,7 @@ export default function Portfolio() {
       title: 'E-commerce Website',
       description: 'Dead Face Clothing',
       image: 'src/assets/deadxface-home.PNG', 
-      link: '', 
+      link: 'https://deadxfaces.onrender.com/', 
     },
     {
       title: 'SLC Events',
@@ -25,6 +20,12 @@ export default function Portfolio() {
       image: 'src/assets/SLC-img.PNG',
       link: 'https://keith-godfrey.github.io/SLC-Events/',
     },
+    {
+      title: 'Pigskin Pachonga',
+      description: 'Fantasy Football Team Generator',
+      image: 'src/assets/pigskin-pachonga.PNG',
+      link: 'https://pigskin-pachanga.up.railway.app/',
+    }
   ]
 
   return (

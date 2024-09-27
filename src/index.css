@@ -85,16 +85,62 @@ button:focus-visible {
 }
 
 
+/* About page */
+.about-container {
+  background-color: #48719F;
+  margin-bottom: .10vh;
+  margin-top: .50vh;
+
+
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.about-item {
+  border-radius: 1em;
+  background-color: #d0def8;
+  padding: 1px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.about-item p {
+  padding: 30px;
+}
+
+.about-item h2 {
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+
+.skills ul {
+  list-style-type: disc; /* Default bullet style */
+  margin-left: 20px; /* Indentation for the list */
+}
+
+.skills li {
+  margin-bottom: 5px; /* Space between list items */
+}
+
+
+
+
 /* Portfolio Cards */
 
 .card {
   width: 31vw; /* Set a fixed width */
-  /* height: 50vh; Set a fixed height */
   margin: 16px; /* Space between cards */
   border: none; /* Remove default border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px #0D1B2A; /* Subtle shadow */
   transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effect */
+}
+
+.card-group {
+  background-color: #1b263b;
 }
 
 .card-body {
@@ -200,22 +246,3 @@ footer a:hover {
 }
 
 
-.about-container {
-  border-radius: 1%;
-  background-color: #e9d856;
-  margin-bottom: .10vh;
-  margin-top: .50vh;
-
-
-  padding-top: 1vh;
-  padding-bottom: 15vh;
-  padding-left: 3vw;
-  padding-right: 3vw;
-}
-
-.about-item {
-  background-color: #f0f0f0;
-  padding: 1px;
-  border-radius: 5px;
-  text-align: center;
-}
