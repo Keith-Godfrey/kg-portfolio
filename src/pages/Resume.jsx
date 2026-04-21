@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/resume.css';
 
 // importing resume from the public folder
 import ResumePage from '../assets/kg-resume.pdf';
